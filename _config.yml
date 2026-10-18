@@ -7,13 +7,13 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "vi-VN"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Võ Quốc Huy"
 title_separator          : "-"
 name                     : &name "Võ Quốc Huy"
-description              : &description "Portfolio của Võ Quốc Huy - sinh viên An toàn thông tin, định hướng SOC Analyst (SIEM, IDS/IPS, MITRE ATT&CK, Malware Analysis)"
-url                      : https://huyvo13032005.github.io # Nếu đặt tên repo khác "huyvo13032005.github.io" thì đổi lại cho đúng
+description              : &description "Portfolio of Vo Quoc Huy - Information Security student aiming to become a SOC Analyst (SIEM, IDS/IPS, MITRE ATT&CK, malware analysis)"
+url                      : https://huyvo13032005.github.io # Change this if your repo is not named "huyvo13032005.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "huyvo13032005/huyvo13032005.github.io"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Võ Quốc Huy"
   pronouns         : # example: "she/her"  
-  bio              : "Sinh viên An toàn thông tin | Định hướng SOC Analyst"
-  location         : "Việt Nam"
-  employer         : "Học viện Công nghệ Bưu chính Viễn thông (PTIT)"
+  bio              : "Information Security student | Aspiring SOC Analyst"
+  location         : "Vietnam"
+  employer         : "Posts and Telecommunications Institute of Technology (PTIT)"
   uri              : # URL
   email            : "huyvo9864@gmail.com"
 

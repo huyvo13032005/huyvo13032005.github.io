@@ -1,12 +1,12 @@
-# Thứ tự các liên kết trên thanh menu phía trên của website.
+# Order of the links in the site header.
 main:
-  - title: "Giới thiệu"
+  - title: "About"
     url: /
 
-  - title: "Dự án"
+  - title: "Projects"
     url: /portfolio/
 
-  - title: "Chứng chỉ"
+  - title: "Certifications"
     url: /certifications/
 
   - title: "CV"

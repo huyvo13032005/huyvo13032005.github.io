@@ -1,28 +1,28 @@
 ---
 layout: archive
-title: "Chứng chỉ và khóa học"
+title: "Certifications and Courses"
 permalink: /certifications/
 author_profile: true
 ---
 
 {% include base_path %}
 
-Cybersecurity - Học viện IPMac
+Cybersecurity - IPMac Academy
 ======
-Hoàn thành khóa học **Cybersecurity** tại Học viện IPMac, có làm **lab thực tế** trong quá trình học.
+Completed the **Cybersecurity** course at IPMac Academy, including **hands-on labs**.
 
 Security Operations Center (SOC) - Cisco Learning & Certifications (2025)
 ======
-Hoàn thành khóa học **Security Operations Center (SOC)** của Cisco Learning & Certifications. Nội dung nắm được:
+Completed the **Security Operations Center (SOC)** course from Cisco Learning & Certifications. Topics covered:
 
-- Kiến trúc của một trung tâm giám sát an ninh (SOC)
-- Quản lý danh tính và truy cập (**IAM**)
-- Ứng phó sự cố (**IR - Incident Response**)
-- **SIEM** (thu thập, tương quan và cảnh báo từ log)
-- **SOAR** (tự động hóa và điều phối ứng phó)
-- **UEBA** (phân tích hành vi người dùng và thực thể)
-- **EDR** (phát hiện và phản ứng trên endpoint)
-- Khung tham chiếu **NIST**
+- SOC architecture
+- Identity and access management (**IAM**)
+- Incident response (**IR**)
+- **SIEM** (log collection, correlation and alerting)
+- **SOAR** (automation and orchestration of response)
+- **UEBA** (user and entity behavior analytics)
+- **EDR** (endpoint detection and response)
+- The **NIST** framework
 
-<!-- Nếu có link chứng chỉ (Credly, file PDF...), thêm vào đây, ví dụ:
-[Xem chứng chỉ](/files/cisco-soc.pdf) -->
+<!-- If you have a certificate link (Credly, PDF...), add it here, e.g.:
+[View certificate](/files/cisco-soc.pdf) -->

@@ -1,15 +1,21 @@
 ---
 layout: archive
-title: "Dự án"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-<p>Các dự án và lab thực hành về giám sát, phát hiện và kiểm thử an ninh mạng.</p>
+<p>Hands-on projects and labs in security monitoring, detection and testing.</p>
 
 {% assign projects = site.portfolio | sort: "order" %}
+{% if projects.size == 0 %}
+<div class="card">
+  <h3 class="card__title"><i class="fas fa-fw fa-flask"></i>Coming soon</h3>
+  <p>Detailed write-ups of my projects are being added. Check back shortly.</p>
+</div>
+{% endif %}
 {% for post in projects %}
   {% include archive-single.html %}
 {% endfor %}
