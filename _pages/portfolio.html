@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Dự án"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>Các dự án và lab thực hành về giám sát, phát hiện và kiểm thử an ninh mạng.</p>
+
+{% assign projects = site.portfolio | sort: "order" %}
+{% for post in projects %}
+  {% include archive-single.html %}
+{% endfor %}

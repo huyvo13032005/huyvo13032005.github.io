@@ -1,0 +1,13 @@
+# Thứ tự các liên kết trên thanh menu phía trên của website.
+main:
+  - title: "Giới thiệu"
+    url: /
+
+  - title: "Dự án"
+    url: /portfolio/
+
+  - title: "Chứng chỉ"
+    url: /certifications/
+
+  - title: "CV"
+    url: /cv/
