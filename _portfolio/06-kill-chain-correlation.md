@@ -1,11 +1,11 @@
 ---
 title: "Kịch bản tấn công, kill chain và correlation"
-excerpt: "Xây dựng kịch bản tấn công, hệ thống lại chuỗi kill chain và viết correlation rule để phát hiện. **Trạng thái: hoàn thành.**"
+excerpt: "Xây dựng kịch bản tấn công, hệ thống lại chuỗi kill chain và viết correlation rule để phát hiện."
 collection: portfolio
+status: done
+tools: ["Kill Chain", "Correlation", "MITRE ATT&CK"]
 order: 6
 ---
-
-**Trạng thái:** Hoàn thành
 
 ## Mục tiêu
 Nhìn một cuộc tấn công như một chuỗi bước liên tiếp thay vì các alert rời rạc, rồi viết rule liên kết các dấu hiệu đó.

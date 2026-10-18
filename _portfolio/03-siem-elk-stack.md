@@ -1,11 +1,11 @@
 ---
 title: "Hệ thống giám sát SIEM bằng ELK Stack"
-excerpt: "Cấu hình SIEM với ELK Stack, lọc alert, viết rule và phân loại False Positive / True Positive. **Trạng thái: hoàn thành.**"
+excerpt: "Cấu hình SIEM với ELK Stack, lọc alert, viết rule và phân loại False Positive / True Positive."
 collection: portfolio
+status: done
+tools: ["ELK Stack", "SIEM", "Rule tuning"]
 order: 3
 ---
-
-**Trạng thái:** Hoàn thành
 
 ## Mục tiêu
 Xây dựng một hệ thống SIEM hoạt động được: thu log, phân tích và đưa ra cảnh báo có ý nghĩa cho người trực.

@@ -34,6 +34,13 @@
       {% endif %}
     </h2>
     
+    {% if post.collection == 'portfolio' %}
+      <p class="project-meta">
+        {% if post.status == 'done' %}<span class="badge badge--done">Hoàn thành</span>{% elsif post.status == 'wip' %}<span class="badge badge--wip">Đang thực hiện</span>{% endif %}
+        {% for tool in post.tools %}<span class="chip">{{ tool }}</span>{% endfor %}
+      </p>
+    {% endif %}
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}

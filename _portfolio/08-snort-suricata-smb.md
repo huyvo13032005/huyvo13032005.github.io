@@ -1,11 +1,11 @@
 ---
 title: "Triển khai và tối ưu Snort/Suricata IDS/IPS cho mạng SMB"
-excerpt: "Triển khai và tối ưu hệ thống Snort/Suricata IDS/IPS cho mạng doanh nghiệp vừa và nhỏ. **Trạng thái: đang thực hiện.**"
+excerpt: "Triển khai và tối ưu hệ thống Snort/Suricata IDS/IPS cho mạng doanh nghiệp vừa và nhỏ."
 collection: portfolio
+status: wip
+tools: ["Snort", "Suricata", "IDS/IPS"]
 order: 8
 ---
-
-**Trạng thái:** Đang thực hiện
 
 ## Mục tiêu
 Đưa **Snort/Suricata** vào vận hành thực tế cho mạng quy mô SMB, vừa phát hiện hiệu quả vừa phù hợp với tài nguyên hạn chế.

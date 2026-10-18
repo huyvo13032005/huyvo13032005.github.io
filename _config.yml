@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "vi-VN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Võ Quốc Huy - SOC Analyst Portfolio"
+title                    : "Võ Quốc Huy"
 title_separator          : "-"
 name                     : &name "Võ Quốc Huy"
 description              : &description "Portfolio của Võ Quốc Huy - sinh viên An toàn thông tin, định hướng SOC Analyst (SIEM, IDS/IPS, MITRE ATT&CK, Malware Analysis)"

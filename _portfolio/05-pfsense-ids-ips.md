@@ -1,11 +1,11 @@
 ---
 title: "Cấu hình tường lửa pfSense và IDS/IPS"
-excerpt: "Cấu hình tường lửa pfSense và hệ thống phát hiện/ngăn chặn xâm nhập (IDS/IPS). **Trạng thái: hoàn thành.**"
+excerpt: "Cấu hình tường lửa pfSense và hệ thống phát hiện/ngăn chặn xâm nhập (IDS/IPS)."
 collection: portfolio
+status: done
+tools: ["pfSense", "IDS/IPS"]
 order: 5
 ---
-
-**Trạng thái:** Hoàn thành
 
 ## Mục tiêu
 Bảo vệ vùng mạng bằng tường lửa và hệ thống IDS/IPS, đồng thời có nguồn cảnh báo cho SIEM.

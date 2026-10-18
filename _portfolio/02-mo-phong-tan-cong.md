@@ -1,11 +1,11 @@
 ---
 title: "Mô phỏng tấn công tự động và kiểm thử thủ công"
-excerpt: "Kiểm thử bằng công cụ tự động (Atomic Red Team và tương tự) kết hợp kiểm thử thủ công với Metasploit, msfvenom, Nessus, Burp Suite, dựa trên các kỹ thuật MITRE ATT&CK. **Trạng thái: hoàn thành.**"
+excerpt: "Kiểm thử bằng công cụ tự động (Atomic Red Team và tương tự) kết hợp kiểm thử thủ công với Metasploit, msfvenom, Nessus, Burp Suite, dựa trên các kỹ thuật MITRE ATT&CK."
 collection: portfolio
+status: done
+tools: ["Atomic Red Team", "Caldera", "Stratus Red Team", "Infection Monkey", "Metasploit", "msfvenom", "Nessus", "Burp Suite"]
 order: 2
 ---
-
-**Trạng thái:** Hoàn thành
 
 ## Mục tiêu
 Tạo ra hành vi tấn công có kiểm soát để kiểm tra khả năng phát hiện của hệ thống giám sát, dựa trên các kỹ thuật có trong **MITRE ATT&CK**.
