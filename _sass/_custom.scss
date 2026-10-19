@@ -393,6 +393,30 @@ code, pre { font-family: $mono; }
 .page__footer { border-top: 1px solid var(--global-border-color); }
 .page__footer-follow ul li a, .page__footer-copyright { color: var(--c-muted); }
 
+
+/* ---------- Figures (ảnh minh họa trong trang dự án) ---------- */
+.page__content figure {
+  margin: 1.5rem 0;
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    box-shadow: var(--c-shadow);
+  }
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--c-muted);
+    text-align: center;
+  }
+}
+.page__content table {
+  display: block;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 600px) {
   .stats { grid-template-columns: 1fr; }
 }

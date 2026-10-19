@@ -39,6 +39,12 @@ Projects
   * Wrote EQL detection rules and KQL hunt queries for each phase, mapped to MITRE ATT&CK, plus a kill-chain correlation rule (same host and user, ordered sequence, 2h window)
   * Tuned each rule with exclusions and negative tests to reduce false positives
   * [Write-up]({{ base_path }}/portfolio/01-insider-threat-detection/) · [GitHub](https://github.com/huyvo13032005/Insider-PowerShell-Detection)
+* **Sideload Sentinel: Detecting DLL Sideloading (T1129) with Sysmon and Elastic Security** (course project, PTIT, 2026)
+  * Ran an 8-phase APT-style attack chain (phishing, DLL sideloading, persistence, C2, exfiltration) in a Kali / Windows 10 / Elastic Cloud lab
+  * Engineered KQL, Sigma and EQL detections for MITRE T1129 from Sysmon image-load and file-create telemetry; validated a real Elastic alert
+  * Identified a false negative (signed system DLL from System32) and proposed tuning on signer, parent process and file age
+  * Built a Flask webhook to Telegram SOAR playbook (alert to notification in under 5 seconds in the lab)
+  * [Write-up]({{ base_path }}/portfolio/02-sideload-sentinel-t1129/) · [GitHub](https://github.com/huyvo13032005/sideload-sentinel)
 
 Contact
 ======
