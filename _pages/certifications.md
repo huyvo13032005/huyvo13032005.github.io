@@ -7,9 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-Cybersecurity - IPMac Academy
+CompTIA Security+ (SY0-701) - Academy IPMAC (2026)
 ======
-Completed the **Cybersecurity** course at IPMac Academy, including **hands-on labs**.
+Security+ program at Academy IPMAC, including **hands-on labs**.
 
 Security Operations Center (SOC) - Cisco Learning & Certifications (2025)
 ======
@@ -24,5 +24,9 @@ Completed the **Security Operations Center (SOC)** course from Cisco Learning & 
 - **EDR** (endpoint detection and response)
 - The **NIST** framework
 
-<!-- If you have a certificate link (Credly, PDF...), add it here, e.g.:
-[View certificate](/files/cisco-soc.pdf) -->
+Foundations of Cybersecurity - Coursera (2025)
+======
+Introductory course covering core cybersecurity concepts and the role of a security analyst.
+
+<!-- If you have certificate links (Credly, Coursera, PDF...), add them here, e.g.:
+[View certificate](https://www.coursera.org/...) -->

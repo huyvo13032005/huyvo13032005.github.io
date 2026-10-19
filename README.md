@@ -5,10 +5,10 @@ Information Security student at the Posts and Telecommunications Institute of Te
 **Website:** https://huyvo13032005.github.io
 
 ## Focus
-- SIEM (ELK Stack), IDS/IPS (Snort/Suricata), pfSense, MITRE ATT&CK
+- Elastic SIEM, Sysmon, KQL/EQL/Sigma detection engineering, MITRE ATT&CK
 - PCAP and malware analysis (FLARE-VM, VirusTotal)
 - Attack simulation, kill chain reconstruction and correlation
-- Courses: Cisco SOC (2025), Cybersecurity - IPMac Academy
+- Learning: Cisco SOC (2025), Foundations of Cybersecurity - Coursera (2025), CompTIA Security+ - Academy IPMAC (2026)
 
 ## Contact
 huyvo9864@gmail.com

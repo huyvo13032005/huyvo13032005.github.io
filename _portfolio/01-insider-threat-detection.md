@@ -7,7 +7,7 @@ tools: ["Sysmon", "Elastic SIEM", "Elastic Agent", "EQL", "KQL", "MITRE ATT&CK",
 order: 1
 ---
 
-**Course project at PTIT (2025-2026) · Blue Team / Detection Engineering**
+**Academic project · 01/2026 - 04/2026 · Blue Team / Detection Engineering**
 
 [GitHub repository](https://github.com/huyvo13032005/Insider-PowerShell-Detection) · [Full report (PDF, Vietnamese)](https://github.com/huyvo13032005/Insider-PowerShell-Detection/blob/main/bao-cao-phat-hien-insider-threat.pdf) · [Slides (PDF)](https://github.com/huyvo13032005/Insider-PowerShell-Detection/blob/main/slide-insider-threat.pdf)
 
@@ -29,11 +29,11 @@ I built a lab, simulated a complete insider kill chain, and wrote detection rule
 
 ## Lab architecture
 
-A hybrid lab: the insider endpoint runs in the cloud and the SIEM runs locally.
+A hybrid lab: the insider endpoint runs in the cloud and is monitored by an Elastic SIEM.
 
-- **Insider endpoint:** AWS EC2 Windows instance (t3.large) with Sysmon and Elastic Agent
-- **SIEM:** Elasticsearch, Kibana and Fleet on a local Windows 10 machine
-- **Connectivity:** Elastic Agent sends logs over HTTPS (ports 8220 and 9200, opened in the EC2 security group and Windows Firewall)
+- **Insider endpoint:** AWS EC2 Windows instance with Sysmon and Elastic Agent
+- **Attacker:** Linux host
+- **SIEM:** Elastic Stack (Elasticsearch, Kibana, Fleet), with Elastic Agent enrolled through Fleet and shipping logs over HTTPS
 
 ```
 Windows endpoint (ituser)

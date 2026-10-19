@@ -272,6 +272,7 @@ a { text-decoration: none; }
   }
   .t-prompt { color: #4ade80; }
   .t-run { color: #fbbf24; }
+  .t-plan { color: #94a3b8; }
   .t-dim { color: #64748b; }
 }
 
@@ -333,6 +334,7 @@ a { text-decoration: none; }
   letter-spacing: 0.02em;
   &--done { color: var(--c-ok); background: var(--c-ok-soft); }
   &--wip { color: var(--c-warn); background: var(--c-warn-soft); }
+  &--plan { color: var(--c-muted); background: var(--c-surface-2); border: 1px dashed var(--global-dark-border-color); }
 }
 .chip {
   display: inline-block;

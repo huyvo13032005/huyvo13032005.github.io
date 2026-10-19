@@ -7,7 +7,7 @@ tools: ["Sysmon", "Elastic Security", "Atomic Red Team", "Sigma", "KQL", "EQL", 
 order: 2
 ---
 
-**Detection Engineering lab · Windows endpoint · Course project at PTIT**
+**Personal project · 08/2026 - 10/2026 · Detection Engineering lab (Windows endpoint)**
 
 [GitHub repository](https://github.com/huyvo13032005/sideload-sentinel) · [Detection rules](https://github.com/huyvo13032005/sideload-sentinel/tree/main/detection-rules) · [SOAR scripts](https://github.com/huyvo13032005/sideload-sentinel/tree/main/soar) · [ATT&CK Navigator layer](https://github.com/huyvo13032005/sideload-sentinel/blob/main/mitre-navigator/layer.json)
 
