@@ -36,7 +36,7 @@
     
     {% if post.collection == 'portfolio' %}
       <p class="project-meta">
-        {% if post.status == 'done' %}<span class="badge badge--done">Hoàn thành</span>{% elsif post.status == 'wip' %}<span class="badge badge--wip">Đang thực hiện</span>{% endif %}
+        {% if post.status == 'done' %}<span class="badge badge--done">Completed</span>{% elsif post.status == 'wip' %}<span class="badge badge--wip">In progress</span>{% endif %}
         {% for tool in post.tools %}<span class="chip">{{ tool }}</span>{% endfor %}
       </p>
     {% endif %}

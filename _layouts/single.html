@@ -29,7 +29,7 @@ layout: default
           {% if page.title and page.hide_title != true %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.collection == 'portfolio' %}
             <p class="project-meta">
-              {% if page.status == 'done' %}<span class="badge badge--done">Hoàn thành</span>{% elsif page.status == 'wip' %}<span class="badge badge--wip">Đang thực hiện</span>{% endif %}
+              {% if page.status == 'done' %}<span class="badge badge--done">Completed</span>{% elsif page.status == 'wip' %}<span class="badge badge--wip">In progress</span>{% endif %}
               {% for tool in page.tools %}<span class="chip">{{ tool }}</span>{% endfor %}
             </p>
           {% endif %}
